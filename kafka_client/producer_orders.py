@@ -1,6 +1,6 @@
 import json
 import time
-from kafka import KafkaProducer
+from kafka import KafkaProducer          # ✅ FIXED
 from data_generator.utils import generate_order
 
 producer = KafkaProducer(
